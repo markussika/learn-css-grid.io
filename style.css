@@ -1,0 +1,23 @@
+.item-1{
+    background-color: rgba(115, 255, 0, 0.685);
+}
+.item-2{
+    background-color: rgba(0, 252, 252, 0.514);
+}
+.item-3{
+    background-color:rgba(179, 138, 6, 0.74);
+}
+.item-4{
+    background-color: rgba(180, 46, 22, 0.781);
+}
+.item-5{
+    background-color: rgba(147, 112, 216, 0.562);
+}
+.item-6{
+    background-color: rgba(74, 83, 207, 0.61);
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 100px 300px;
+    grid-template-rows: 100px 200px ;
+}
