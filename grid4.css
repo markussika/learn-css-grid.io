@@ -1,0 +1,21 @@
+
+.item-1{
+    background-color: purple;
+}
+.item-2{
+    background-color: purple;
+}
+.item-3{
+    background-color: purple;
+}
+.item-4{
+    background-color: purple;
+}
+.container{
+    display: grid;
+    background-color: pink;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 300px 300px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
