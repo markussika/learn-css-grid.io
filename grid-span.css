@@ -1,0 +1,38 @@
+.item1{
+    background-color: orange;
+    grid-column: 1/2;
+    grid-row: 1/span 2
+}
+.item2{
+    background-color: green;
+    
+}
+.item3{
+    background-color: violet;
+    
+}
+.item4{
+    background-color: pink;
+    grid-column: 1/ span 2;
+    grid-row: 2/3;
+}
+.item5{
+    background-color: blue;
+    
+}
+.item6{
+    background-color: brown;
+    grid-column: 1/ span 3;
+    grid-row: 3/4;
+}
+.container{
+    display: grid;
+    background-color: #eee;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    column-gap: 50px;
+    row-gap: 30px;
+    width: 550px;
+    
+
+}
