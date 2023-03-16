@@ -1,3 +1,45 @@
 :root {
   font-family: sans-serif;
 }
+.zilsk{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.dzk{
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  ;
+}
+.zalsk{
+  height: 400px;
+  width: 400px;
+  background-color: green;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.ok{
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+}
+.vk{
+  height: 400px;
+  width: 400px;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pinkk{
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+}

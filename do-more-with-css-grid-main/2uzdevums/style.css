@@ -7,6 +7,13 @@
   katra 200 px plata un 2 rindās, katra 150px augsta. */
 
   gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 150px);
+  justify-content: center;
+  align-content: center;
+  justify-items:center;
+  align-items: center;
 }
 
 .item {
